@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
 
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,11 @@ a {
 
 .container {
     margin: 0px 130px;
+}
+
+.ho:hover .photo {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
 }
 
 .banner {
