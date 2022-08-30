@@ -201,3 +201,145 @@ body {
 .end samp {
     padding-right: 25px;
 }
+
+.social {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.view {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: none;
+
+
+}
+
+.view button {
+    background-color: red;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+}
+
+/* Media Query TabLet Start*/
+@media screen and (max-width:990px) {
+    .container {
+        width: 100%;
+    }
+
+    .mainPart {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+    .mainLeft {
+        margin-bottom: 10px;
+    }
+
+    .mainLeft {
+        width: 100%;
+        margin-left: 180px;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .navbar button {
+        display: grid;
+        margin-left: 100px;
+        height: 70px;
+
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-column-gap: 10px;
+    }
+
+    .view {
+        display: block;
+    }
+
+
+}
+
+/* Media Query Phone Start */
+
+@media screen and (max-width:688px) {
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+
+    }
+
+    .mainPart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .navbar button {
+        width: 174px;
+        height: 80px;
+        margin-bottom: 30px;
+
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        grid-column-gap: 10px;
+    }
+
+    .end {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+
+
+
+
+}
