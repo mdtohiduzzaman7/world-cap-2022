@@ -1,0 +1,20 @@
+.flags img {
+    width: 100%;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.vs {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ob {
+    border: 1px solid gray;
+}

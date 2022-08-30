@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins';
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     margin: 0px 130px;
 }
@@ -79,6 +83,7 @@ body {
 .mainPart .mainLeft {
     width: 25%;
     margin-right: 10px;
+
 }
 
 .mainPart .mainRight {
@@ -227,6 +232,12 @@ body {
     border-radius: 10px;
     color: #ffffff;
     border: none;
+}
+
+.endin hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 900px;
+    margin-bottom: 20px;
 }
 
 /* Media Query TabLet Start*/
