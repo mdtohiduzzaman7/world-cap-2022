@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.container {
+    margin: 0px 130px;
+}
+
+.banner {
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-bottom: 120px;
+}
+
+.bannerText {
+    width: 50%;
+    padding: 50px 12px 30px 111px;
+}
+
+.bannerText h1 {
+    font-weight: 700;
+    font-size: 55px;
+    padding: 0;
+}
+
+.bannerText p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bannerText button {
+
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+
+}
+
+.bannerText button:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.bannerText a {
+    text-decoration: none;
+
+}
+
+.bannerImg {
+    width: 50%;
+    padding: 33px 80px 0 12px;
+
+
+}
+
+.bannerImg img {
+    width: 100%;
+}
+
+
+/* HeaderEnd */
+
+.mainPart {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.mainPart .mainLeft {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.mainPart .mainRight {
+    width: 75%;
+}
+
+/* button start */
+
+.navbar {
+    background: #161616;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 312px;
+    justify-content: space-around;
+
+}
+
+.navbar button {
+    padding: 17px 39px;
+    border-radius: 10px;
+    color: #161616;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar button:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+/* navBar end */
+
+
+/* blogs :start */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+}
+
+.blog {
+
+
+    border-radius: 5px;
+
+}
+
+.blog img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.blog h2 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.blog i {
+    padding-right: 10px;
+}
+
+.blog button {
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.clock {
+    display: flex;
+    font-size: 18px;
+    color: rgba(22, 22, 22, 0.7);
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.left10 {
+    padding-right: 35px;
+}
+
+/* MAin part end */
+
+/* footer start */
+.ends {
+
+    height: 400px;
+    background: #161616;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.ends h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.end {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.end samp {
+    padding-right: 25px;
+}
