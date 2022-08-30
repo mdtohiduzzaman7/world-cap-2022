@@ -23,7 +23,7 @@ a {
     border-radius: 30px;
     color: #ffffff;
     margin-bottom: 120px;
-    transition: background-color 3s;
+    transition: background-color 5s;
 }
 
 .banner:hover {
